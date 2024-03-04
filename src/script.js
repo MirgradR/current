@@ -2,8 +2,10 @@
 import header from "./components/header/header.html";
 import mainContent from "./components/main/main.html";
 import section from "./components/section/section.html";
+import welcome from "./components/welcome/welcome.html";
 
 import "./components/header/header.css";
+import "./components/welcome/welcome.css";
 
 // Слушатель события, который выполнится, когда весь DOM загрузится
 document.addEventListener("DOMContentLoaded", async function () {
@@ -16,6 +18,7 @@ document.addEventListener("DOMContentLoaded", async function () {
   // После вставки 'header' и 'mainContent', элемент 'main' должен быть в DOM.
   // Вставка секции в элемент с ID 'main'
   await insertHTMLIntoElementById("main", section);
+  await insertHTMLIntoElementById("main", welcome);
 });
 
 // Функция для вставки HTML-контента в элемент с заданным ID
