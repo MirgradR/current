@@ -1,4 +1,67 @@
-.welcome {
-  background-color: blue;
-  border: 2px solid black;
+.welcome_sector {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  height: 100%;
+  margin-bottom: 96.01px;
+  padding-top: 96px;
+}
+
+.get_started {
+  width: 260px;
+  height: 68px;
+  display: inline-block;
+  color: white;
+  background-color: #1f19e1;
+  user-select: none;
+  border-radius: 50px;
+  padding: 20px 42px;
+  border: 0;
+  font-size: 19.3px;
+}
+.get_started:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.watch_video {
+  width: 260px;
+  height: 68px;
+  display: inline-block;
+  color: black;
+  background-color: #c6df5d;
+  user-select: none;
+  border-radius: 50px;
+  padding: 21px 55px;
+  border: 1px solid #5b6436;
+  font-size: 19.3px;
+}
+.watch_video:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.welcome_sector_buttons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+.welcome_sector_title {
+  font-size: 101.1px;
+  font-weight: 1000;
+}
+.welcome_sector_description {
+  color: rgba(91, 100, 54, 0.85);
+  font-size: 24px;
+}
+.welcome_sector_no_credit {
+  color: rgb(91, 100, 54);
+  font-size: 15.4px;
+}
+.welcome_sector_description_bold {
+  color: rgba(30, 30, 30, 1);
+}
+
+.welcome_sector_buttons_and_no_credit {
+  margin-top: 49px;
 }
