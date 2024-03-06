@@ -1,3 +1,68 @@
 .header {
-  background-color: red;
+    background-color: #E5FF76E5;
+    font-family: "Inter", sans-serif;
+}
+
+img {
+    display: block;
+}
+
+.header__logo {
+    padding-left: 48px;
+    padding-right: 520px;
+}
+
+.header__menu {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-right: 48px;
+}
+
+.header__list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header__link-element {
+        white-space: nowrap;
+}
+
+.header__link-element::after {
+    content: url('/src/assets/images/after-element.svg');
+    padding-left: 6px;
+}
+
+.header__link {
+    text-decoration: none;
+    padding: 10px 12px;
+    color: #242424;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.header__vertical-line {
+    margin-right: 8px;
+    margin-left: 8px;
+    margin-top: 4px;
+}
+
+.header__vertical-line:before {
+    content: '';
+    border: 1px solid #C6DF5D;
+    display: inline-block;
+    height: 16px;
+}
+
+.header__buttons {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header__button-signup {
+    padding: 10px 24px;
+    background-color: #242424;
+    color: #F0F0F0;
+    border-radius: 100px;
 }
