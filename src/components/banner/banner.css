@@ -35,6 +35,9 @@
   padding: 21px 55px;
   border: 1px solid #5b6436;
   font-size: 19.3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .banner_watch-video:hover {
   opacity: 0.9;
