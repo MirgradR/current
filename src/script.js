@@ -2,10 +2,10 @@
 import header from "./components/header/header.html";
 import mainContent from "./components/main/main.html";
 import section from "./components/section/section.html";
-import welcome from "./components/welcome/welcome.html";
+import welcome from "./components/banner/banner.html";
 
 import "./components/header/header.css";
-import "./components/welcome/welcome.css";
+import "./components/banner/banner.css";
 
 // Слушатель события, который выполнится, когда весь DOM загрузится
 document.addEventListener("DOMContentLoaded", async function () {
