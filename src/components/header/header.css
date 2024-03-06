@@ -5,6 +5,12 @@
 
 img {
     display: block;
+    background-color: #E5FF76E5;
+    font-family: "Inter", sans-serif;
+}
+
+img {
+    display: block;
 }
 
 .header__logo {
