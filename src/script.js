@@ -1,4 +1,5 @@
 // Импорт HTML-компонентов как строк из отдельных файлов
+import head from "../index.html";
 import header from "./components/header/header.html";
 import mainContent from "./components/main/main.html";
 import section from "./components/section/section.html";
@@ -6,13 +7,15 @@ import welcome from "./components/welcome/welcome.html";
 import about from "./components/about/about.html";
 import contacts from "./components/contacts/contacts.html";
 import presentation from "./components/presentation/presentation.html";
+import partners from "./components/partners/partners.html";
 
-
+import "../styles.css";
 import "./components/header/header.css";
 import "./components/welcome/welcome.css";
 import "./components/about/about.css";
 import "./components/contacts/contacts.css";
 import "./components/presentation/presentation.css";
+import "./components/partners/partners.css";
 
 // Слушатель события, который выполнится, когда весь DOM загрузится
 document.addEventListener("DOMContentLoaded", async function () {
@@ -26,6 +29,7 @@ document.addEventListener("DOMContentLoaded", async function () {
   // Вставка секции в элемент с ID 'main'
   await insertHTMLIntoElementById("main", section);
   await insertHTMLIntoElementById("main", welcome);
+  await insertHTMLIntoElementById("main", partners);
   await insertHTMLIntoElementById("main", about);
   await insertHTMLIntoElementById("main", contacts);
   await insertHTMLIntoElementById("main", presentation);
