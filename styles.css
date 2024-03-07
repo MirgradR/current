@@ -6,3 +6,7 @@
     justify-content: space-between;
     align-items: center;
 }
+
+div#app {
+    background-color: #E5FF76;
+}
