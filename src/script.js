@@ -8,6 +8,7 @@ import about from "./components/about/about.html";
 import contacts from "./components/contacts/contacts.html";
 import presentation from "./components/presentation/presentation.html";
 import partners from "./components/partners/partners.html";
+import offer from "./components/offer/offer.html";
 
 import "../styles.css";
 import "./components/header/header.css";
@@ -16,6 +17,8 @@ import "./components/about/about.css";
 import "./components/contacts/contacts.css";
 import "./components/presentation/presentation.css";
 import "./components/partners/partners.css";
+import "./components/offer/offer.css";
+
 
 // Слушатель события, который выполнится, когда весь DOM загрузится
 document.addEventListener("DOMContentLoaded", async function () {
@@ -33,6 +36,8 @@ document.addEventListener("DOMContentLoaded", async function () {
   await insertHTMLIntoElementById("main", about);
   await insertHTMLIntoElementById("main", contacts);
   await insertHTMLIntoElementById("main", presentation);
+  await insertHTMLIntoElementById("main", offer);
+
 });
 
 // Функция для вставки HTML-контента в элемент с заданным ID
