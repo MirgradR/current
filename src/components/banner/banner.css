@@ -1,0 +1,70 @@
+.banner{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  height: 100%;
+  margin-bottom: 96.01px;
+  padding-top: 96px;
+}
+
+.banner__get-started {
+  width: 260px;
+  height: 68px;
+  display: inline-block;
+  color: white;
+  background-color: #1f19e1;
+  user-select: none;
+  border-radius: 50px;
+  padding: 20px 42px;
+  border: 0;
+  font-size: 19.3px;
+}
+.banner__get-started:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.banner__watch-video {
+  width: 260px;
+  height: 68px;
+  display: inline-block;
+  color: black;
+  background-color: #c6df5d;
+  user-select: none;
+  border-radius: 50px;
+  padding: 21px 55px;
+  border: 1px solid #5b6436;
+  font-size: 19.3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner__watch-video:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.banner__buttons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+.banner__title {
+  font-size: 101.1px;
+  font-weight: 1000;
+}
+.banner__description {
+  color: rgba(91, 100, 54, 0.85);
+  font-size: 24px;
+}
+.banner__no-credit {
+  color: rgb(91, 100, 54);
+  font-size: 15.4px;
+}
+.banner__description-bold {
+  color: rgba(30, 30, 30, 1);
+}
+
+.banner__buttons-and-no-credit {
+  margin-top: 49px;
+}

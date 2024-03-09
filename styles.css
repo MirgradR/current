@@ -40,3 +40,16 @@ h2 {
 p {
   font-family: "Inter-Regular";
 }
+
+.container {
+    max-width: 1440px;
+    min-height: 75px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div#app {
+    background-color: #E5FF76;
+}
