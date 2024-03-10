@@ -1,3 +1,46 @@
+@font-face {
+  font-family: "helveticaneue-medium";
+
+  src: local("helveticaneue-medium"),
+    url("./components/assets/fonts/helveticaneue-medium.woff2") format("woff2"),
+    url("./components/assets/fonts/helveticaneue-medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "helveticaneue-bold";
+  src: local("Helveticaneue-bold"),
+    url("./components/assets/fonts/Helveticaneue-bold.woff2") format("woff2"),
+    url("./components/assets/fonts/Helveticaneue-bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Inter-Regular";
+  src: local("Inter-Regular"),
+    url("./components/assets/fonts/Inter-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  font-family: "helveticaneue-medium", "helveticaneue-bold", "Inter-Regular",
+    helvetica;
+}
+
+h1 {
+  font-family: "helveticaneue-bold";
+  font-weight: bold;
+  font-size: 101.1px;
+}
+h2 {
+  font-family: "helveticaneue-medium";
+  font-size: 79.9px;
+}
+p {
+  font-family: "Inter-Regular";
+}
+
 .container {
     max-width: 1440px;
     min-height: 75px;

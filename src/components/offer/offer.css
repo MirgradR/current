@@ -1,0 +1,16 @@
+.offer {
+  background-color: #121212;
+  height: 2238.28px;
+  width: 1425px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  height: 100%;
+}
+.offer__tittle {
+  color: #ffff;
+}
+
+.offer__subtittle {
+  font-size: 19.2px;
+}
