@@ -1,0 +1,43 @@
+.white_text {
+  color: white;
+}
+.summarized {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: black;
+  height: 490.38px;
+  justify-content: space-evenly;
+  padding-top: 80px;
+}
+
+.summarized__title {
+  color: white;
+}
+
+.summarized__button {
+  display: flex;
+}
+
+.summarized__button {
+  width: 180.35px;
+  height: 58.1px;
+  display: inline-block;
+  color: white;
+  background-color: black;
+  user-select: none;
+  border-radius: 50px;
+  border: 1px solid #333333;
+  font-size: 19.5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.summarized__button:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.summarized__button-icon {
+  background-color: black;
+}

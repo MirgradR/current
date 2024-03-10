@@ -24,3 +24,8 @@ h2 {
 div#app {
   background-color: #e5ff76;
 }
+
+.description {
+  color: #8f8f8f;
+  font-size: 19.2px;
+}
