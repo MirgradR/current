@@ -2,20 +2,17 @@
 import head from "../index.html";
 import header from "./components/header/header.html";
 import mainContent from "./components/main/main.html";
-import section from "./components/section/section.html";
 import banner from "./components/banner/banner.html";
-import about from "./components/about/about.html";
-import contacts from "./components/contacts/contacts.html";
 import presentation from "./components/presentation/presentation.html";
 import partners from "./components/partners/partners.html";
+import integrates from "./components/integrates/integrates.html";
 
 import "../styles.css";
 import "./components/header/header.css";
 import "./components/banner/banner.css";
-import "./components/about/about.css";
-import "./components/contacts/contacts.css";
 import "./components/presentation/presentation.css";
 import "./components/partners/partners.css";
+import "./components/integrates/integrates.css";
 
 // Слушатель события, который выполнится, когда весь DOM загрузится
 document.addEventListener("DOMContentLoaded", async function () {
@@ -27,12 +24,10 @@ document.addEventListener("DOMContentLoaded", async function () {
 
   // После вставки 'header' и 'mainContent', элемент 'main' должен быть в DOM.
   // Вставка секции в элемент с ID 'main'
-  await insertHTMLIntoElementById("main", section);
-  await insertHTMLIntoElementById("main", welcome);
+  await insertHTMLIntoElementById("main", banner);
   await insertHTMLIntoElementById("main", partners);
-  await insertHTMLIntoElementById("main", about);
-  await insertHTMLIntoElementById("main", contacts);
   await insertHTMLIntoElementById("main", presentation);
+  await insertHTMLIntoElementById("main", integrates);
 });
 
 // Функция для вставки HTML-контента в элемент с заданным ID

@@ -1,74 +1,75 @@
 .header {
-    background-color: #E5FF76E5;
-    font-family: "Inter", sans-serif;
+  background-color: #e5ff76e5;
+  font-family: "Inter", sans-serif;
+  display: flex;
 }
 
 img {
-    display: block;
-    background-color: #E5FF76E5;
-    font-family: "Inter", sans-serif;
+  display: block;
+  background-color: #e5ff76e5;
+  font-family: "Inter", sans-serif;
 }
 
 img {
-    display: block;
+  display: block;
 }
 
 .header__logo {
-    padding-left: 48px;
-    padding-right: 520px;
+  padding-left: 48px;
+  padding-right: 520px;
 }
 
 .header__menu {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    margin-right: 48px;
+  display: flex;
+  align-items: center;
+  margin-right: 48px;
 }
 
 .header__list {
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
+  list-style: none;
+  display: flex;
 }
 
 .header__link-element {
-        white-space: nowrap;
+  white-space: nowrap;
 }
 
 .header__link-element::after {
-    content: url('/src/assets/images/after-element.svg');
-    padding-left: 6px;
+  content: url("/src/assets/images/after-element.svg");
+  padding-left: 6px;
 }
 
 .header__link {
-    text-decoration: none;
-    padding: 10px 12px;
-    color: #242424;
-    font-weight: 400;
-    font-size: 17px;
+  text-decoration: none;
+  padding: 10px 12px;
+  color: #242424;
+  font-weight: 400;
+  font-size: 17px;
+  flex-shrink: 1;
+  width: 100%;
+  flex-grow: 1;
 }
 
 .header__vertical-line {
-    margin-right: 8px;
-    margin-left: 8px;
-    margin-top: 4px;
+  margin-right: 8px;
+  margin-left: 8px;
+  margin-top: 4px;
 }
 
 .header__vertical-line:before {
-    content: '';
-    border: 1px solid #C6DF5D;
-    display: inline-block;
-    height: 16px;
+  content: "";
+  border: 1px solid #c6df5d;
+  display: inline-block;
+  height: 16px;
 }
 
 .header__buttons {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
 }
 
 .header__button-signup {
-    padding: 10px 24px;
-    background-color: #242424;
-    color: #F0F0F0;
-    border-radius: 100px;
+  padding: 10px 24px;
+  background-color: #242424;
+  color: #f0f0f0;
+  border-radius: 100px;
 }
