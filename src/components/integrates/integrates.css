@@ -1,0 +1,16 @@
+.integrates__tittle {
+  color: #ffff;
+}
+
+.integrates__subtittle {
+  font-size: 19.2px;
+}
+.integrates {
+  background-color: #121212;
+  height: 1246.28px;
+  width: 1425px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  height: 100%;
+}
