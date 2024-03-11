@@ -11,6 +11,7 @@ import summarized from "./components/summarized/summarized.html";
 import weekly_drop from "./components/weekly_drop/weekly_drop.html";
 import features from "./components/features/features.html";
 import conditions from "./components/conditions/conditions.html";
+import customer_stories from "./components/customer_stories/customer_stories.html";
 import appear from "./components/appear/appear.html";
 
 import "../styles.css";
@@ -24,6 +25,7 @@ import "./components/summarized/summarized.css";
 import "./components/weekly_drop/weekly_drop.css";
 import "./components/features/features.css";
 import "./components/conditions/conditions.css";
+import "./components/customer_stories/customer_stories.css";
 import "./components/appear/appear.css";
 
 // Слушатель события, который выполнится, когда весь DOM загрузится
@@ -45,6 +47,7 @@ document.addEventListener("DOMContentLoaded", async function () {
   await insertHTMLIntoElementById("main", weekly_drop);
   await insertHTMLIntoElementById("main", features);
   await insertHTMLIntoElementById("main", conditions);
+  await insertHTMLIntoElementById("main", customer_stories);
   await insertHTMLIntoElementById("main", appear);
 });
 

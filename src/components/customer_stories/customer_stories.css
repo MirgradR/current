@@ -1,0 +1,113 @@
+.customer-stories {
+  height: 710px;
+  background-color: white;
+  padding-left: 146.5px;
+  padding-top: 81px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.customer-stories-small-title {
+  color: #1f19e1;
+  font-size: 12.9px;
+  display: flex;
+  align-self: flex-start;
+}
+.customer-stories-title {
+  font-size: 51.9px;
+  color: black;
+  display: flex;
+  align-self: flex-start;
+}
+.customer-stories-title-arrows {
+  display: flex;
+  align-content: space-around;
+}
+
+.customer-stories-arrow-left {
+  width: 160px;
+  height: 160px;
+  border-width: 1px 1px 1px 1px;
+  border-style: solid;
+  border-color: #8f8f8f;
+  border-radius: 6px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.customer-stories-arrow-right {
+  width: 160px;
+  height: 160px;
+  border-width: 1px 1px 1px 1px;
+  border-style: solid;
+  border-color: #8f8f8f;
+  border-radius: 6px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.customer-stories-box-story-subtitle {
+  font-size: 19.2px;
+  color: black;
+}
+.customer-stories-boxes {
+  display: flex;
+
+  flex-direction: column;
+}
+.customer-stories-box-story-mercury {
+  display: flex;
+  justify-content: center;
+}
+.customer-stories-arrows {
+  display: flex;
+  align-self: flex-end;
+}
+.customer-stories-box-story {
+  display: flex;
+  min-width: 320px;
+  min-height: 320px;
+  border-width: 1px 1px 1px 1px;
+  border-style: solid;
+  border-color: #8f8f8f;
+  border-radius: 6px;
+  box-sizing: border-box;
+  padding: 24px 24px;
+}
+
+.customer-box-story-subtitle-person {
+  flex-direction: column;
+  justify-content: space-between;
+  display: flex;
+}
+
+.customer-stories-box-story-person {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.customer-stories-box-story-person-designer {
+  color: #8f8f8f;
+  font-size: 19.2px;
+}
+
+.customer-stories-box-mercury {
+  min-width: 320px;
+  min-height: 320px;
+  border-width: 1px 1px 1px 1px;
+  border-style: solid;
+  border-color: #8f8f8f;
+  border-radius: 6px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.customer-stories-img {
+  background-color: white;
+}
