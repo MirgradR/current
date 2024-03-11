@@ -9,6 +9,7 @@ import integrates from "./components/integrates/integrates.html";
 import offer from "./components/offer/offer.html";
 import summarized from "./components/summarized/summarized.html";
 import conditions from "./components/conditions/conditions.html";
+import weekly_drop from "./components/weekly_drop/weekly_drop.html";
 
 import "../styles.css";
 import "./components/header/header.css";
@@ -19,7 +20,7 @@ import "./components/integrates/integrates.css";
 import "./components/offer/offer.css";
 import "./components/summarized/summarized.css";
 import "./components/conditions/conditions.css";
-
+import "./components/weekly_drop/weekly_drop.css";
 
 // Слушатель события, который выполнится, когда весь DOM загрузится
 document.addEventListener("DOMContentLoaded", async function () {
@@ -38,6 +39,7 @@ document.addEventListener("DOMContentLoaded", async function () {
   await insertHTMLIntoElementById("main", offer);
   await insertHTMLIntoElementById("main", summarized);
   await insertHTMLIntoElementById("main", conditions);
+  await insertHTMLIntoElementById("main", weekly_drop);
 });
 
 // Функция для вставки HTML-контента в элемент с заданным ID
