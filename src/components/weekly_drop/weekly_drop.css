@@ -1,0 +1,46 @@
+.weekly_drop {
+  background-color: black;
+  height: 1260px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.weekly_drop__screen {
+  background-color: #1e1e1e;
+  width: 70%;
+  padding-top: 53px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+.weekly_drop__text {
+  color: white;
+  font-size: 21.1px;
+}
+.weekly_drop__mobile-squad {
+  color: white;
+  font-size: 17.9px;
+}
+.weekly_drop__posts {
+  color: #686868;
+  font-size: 13.2px;
+}
+.weekly_drop__new-exploration {
+  background-color: #1e1e1e;
+}
+
+.weekly_drop__img-icons {
+  background-color: #1e1e1e;
+}
+
+.weekly_drop__text-and-icons {
+  display: flex;
+  align-content: space-between;
+  gap: 400px;
+}
+.weekly_drop__four-icons {
+  display: flex;
+  align-items: center;
+}
