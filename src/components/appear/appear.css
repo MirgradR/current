@@ -1,0 +1,66 @@
+.appear {
+  background-color: black;
+  height: 707px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 76px;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+}
+.appear__pic {
+  background-color: black;
+}
+.appear__title {
+  color: white;
+  font-size: 51.9px;
+}
+
+.appear__button-start {
+  width: 1132px;
+  height: 161px;
+  display: inline-block;
+  color: black;
+  background-color: #e5ff76;
+  user-select: none;
+  border-radius: 100px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  font-size: 66.1px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.appear__button-start:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.appear__contact-book {
+  width: 566px;
+  height: 160px;
+  display: inline-block;
+  color: white;
+  background-color: black;
+  user-select: none;
+  border-radius: 100px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.appear__contact-book:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+.appear_buttons-foot {
+  display: flex;
+}
+.appear__buttons {
+  box-sizing: border-box;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  border-width: 100%;
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
