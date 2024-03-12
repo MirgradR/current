@@ -8,9 +8,11 @@
   justify-content: space-around;
   align-items: center;
 }
+
 .appear__pic {
   background-color: black;
 }
+
 .appear__title {
   color: white;
   font-size: 51.9px;
@@ -30,6 +32,7 @@
   align-items: center;
   justify-content: space-evenly;
 }
+
 .appear__button-start:hover {
   opacity: 0.9;
   cursor: pointer;
@@ -49,13 +52,16 @@
   align-items: center;
   justify-content: space-evenly;
 }
+
 .appear__contact-book:hover {
   opacity: 0.9;
   cursor: pointer;
 }
+
 .appear_buttons-foot {
   display: flex;
 }
+
 .appear__buttons {
   box-sizing: border-box;
   border-top: 1px solid rgba(255, 255, 255, 0.2);
@@ -63,4 +69,5 @@
   border-width: 100%;
   border-left: 1px solid rgba(255, 255, 255, 0.2);
   border-right: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
 }

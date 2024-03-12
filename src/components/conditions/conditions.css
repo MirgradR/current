@@ -9,6 +9,7 @@
   border: none;
   font-size: 19.5px;
 }
+
 .conditions__button:hover {
   opacity: 0.9;
   cursor: pointer;
@@ -23,10 +24,12 @@
   padding-top: 117px;
   justify-content: space-evenly;
 }
+
 .conditions__title {
   font-size: 80px;
   color: white;
 }
+
 .conditions__subtitle {
   color: #8f8f8f;
   font-size: 19.2px;
@@ -34,15 +37,18 @@
   align-items: center;
   gap: 5px;
 }
+
 .conditions__pic {
   background-color: black;
 }
+
 .conditions__list {
   display: flex;
   justify-content: space-evenly;
   align-content: space-around;
   gap: 25px;
 }
+
 .conditions__button-soon {
   width: 49px;
   height: 22.6px;
