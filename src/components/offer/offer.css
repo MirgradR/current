@@ -1,11 +1,12 @@
 .offer {
-  background-color: #121212;
-  height: 2238.28px;
-  width: 1425px;
+  background-color: black;
+  height: 992px;
   display: flex;
   text-align: center;
   flex-direction: column;
-  height: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
 }
 .offer__tittle {
   color: #ffff;
@@ -13,4 +14,5 @@
 
 .offer__subtittle {
   font-size: 19.2px;
+  color: #8f8f8f;
 }

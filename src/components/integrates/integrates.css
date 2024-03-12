@@ -1,16 +1,23 @@
 .integrates__tittle {
-    color: #ffff;
-  }
-  
-  .integrates__subtittle {
-    font-size: 19.2px;
-  }
-  .integrates {
-    background-color: #121212;
-    height: 1246.28px;
-    width: 1425px;
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    height: 100%;
-  }
+  color: #ffff;
+}
+
+.integrates__subtittle {
+  font-size: 19.2px;
+  color: #8f8f8f;
+}
+.integrates {
+  background-color: black;
+  height: 1246.28px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  height: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 18px;
+}
+
+.integrates__img {
+  background-color: black;
+}

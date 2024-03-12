@@ -1,4 +1,4 @@
-.banner{
+.banner {
   display: flex;
   text-align: center;
   flex-direction: column;
@@ -29,7 +29,7 @@
   height: 68px;
   display: inline-block;
   color: black;
-  background-color: #c6df5d;
+  background-color: #E5FF76;
   user-select: none;
   border-radius: 50px;
   padding: 21px 55px;
@@ -67,4 +67,8 @@
 
 .banner__buttons-and-no-credit {
   margin-top: 49px;
+}
+
+.banner__img {
+  background-color: #E5FF76;
 }
