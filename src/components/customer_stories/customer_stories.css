@@ -9,24 +9,19 @@
   align-items: center;
 }
 
-.customer-stories-small-title {
+.customer-stories__small-title {
   color: #1f19e1;
   font-size: 12.9px;
   display: flex;
   align-self: flex-start;
 }
-.customer-stories-title {
+.customer-stories__title {
   font-size: 51.9px;
   color: black;
   display: flex;
   align-self: flex-start;
 }
-.customer-stories-title-arrows {
-  display: flex;
-  align-content: space-around;
-}
-
-.customer-stories-arrow-left {
+.customer-stories__arrow-left {
   width: 160px;
   height: 160px;
   border-width: 1px 1px 1px 1px;
@@ -38,7 +33,7 @@
   justify-content: center;
   align-items: center;
 }
-.customer-stories-arrow-right {
+.customer-stories__arrow-right {
   width: 160px;
   height: 160px;
   border-width: 1px 1px 1px 1px;
@@ -51,24 +46,24 @@
   align-items: center;
 }
 
-.customer-stories-box-story-subtitle {
+.customer-stories__box-story-subtitle {
   font-size: 19.2px;
   color: black;
 }
-.customer-stories-boxes {
+.customer-stories__boxes {
   display: flex;
 
   flex-direction: column;
 }
-.customer-stories-box-story-mercury {
+.customer-stories__box-story-mercury {
   display: flex;
   justify-content: center;
 }
-.customer-stories-arrows {
+.customer-stories__arrows {
   display: flex;
   align-self: flex-end;
 }
-.customer-stories-box-story {
+.customer-stories__box-story {
   display: flex;
   min-width: 320px;
   min-height: 320px;
@@ -80,23 +75,23 @@
   padding: 24px 24px;
 }
 
-.customer-box-story-subtitle-person {
+.customer-stories__box-story-subtitle-person {
   flex-direction: column;
   justify-content: space-between;
   display: flex;
 }
 
-.customer-stories-box-story-person {
+.customer-stories__box-story-person {
   display: flex;
   align-items: center;
   gap: 5px;
 }
-.customer-stories-box-story-person-designer {
+.customer-stories__box-story-person-designer {
   color: #8f8f8f;
   font-size: 19.2px;
 }
 
-.customer-stories-box-mercury {
+.customer-stories__box-mercury {
   min-width: 320px;
   min-height: 320px;
   border-width: 1px 1px 1px 1px;
@@ -108,6 +103,6 @@
   justify-content: center;
   align-items: center;
 }
-.customer-stories-img {
+.customer-stories__img {
   background-color: white;
 }
