@@ -6,6 +6,7 @@
   font-size: 19.2px;
   color: #8f8f8f;
 }
+
 .integrates {
   background-color: black;
   height: 1246.28px;
@@ -20,4 +21,5 @@
 
 .integrates__img {
   background-color: black;
+  margin-top: 80px;
 }

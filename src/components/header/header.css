@@ -2,6 +2,7 @@
   background-color: #e5ff76e5;
   font-family: "Inter", sans-serif;
   display: flex;
+  padding-right: 50px;
 }
 
 img {
@@ -16,13 +17,11 @@ img {
 
 .header__logo {
   padding-left: 48px;
-  padding-right: 520px;
 }
 
 .header__menu {
   display: flex;
   align-items: center;
-  margin-right: 48px;
 }
 
 .header__list {
@@ -48,6 +47,7 @@ img {
   flex-shrink: 1;
   width: 100%;
   flex-grow: 1;
+  white-space: nowrap;
 }
 
 .header__vertical-line {

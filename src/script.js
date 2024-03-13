@@ -41,8 +41,8 @@ document.addEventListener("DOMContentLoaded", async function () {
   // После вставки 'header' и 'mainContent', элемент 'main' должен быть в DOM.
   // Вставка секции в элемент с ID 'main'
   await insertHTMLIntoElementById("main", banner);
-  await insertHTMLIntoElementById("main", partners);
   await insertHTMLIntoElementById("main", presentation);
+  await insertHTMLIntoElementById("main", partners);
   await insertHTMLIntoElementById("main", offer);
   await insertHTMLIntoElementById("main", integrates);
   await insertHTMLIntoElementById("main", summarized);
