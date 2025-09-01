@@ -1,0 +1,19 @@
+.offer {
+  background-color: black;
+  height: 992px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.offer__tittle {
+  color: #ffff;
+}
+
+.offer__subtittle {
+  font-size: 19.2px;
+  color: #8f8f8f;
+}

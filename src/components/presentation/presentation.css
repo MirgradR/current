@@ -1,0 +1,10 @@
+.presentation__banner {
+    box-sizing: border-box;
+    display: block;
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+    background: linear-gradient(168deg,rgba(255,255,255,.61) 0%,rgba(0,0,0,.19) 100%);
+    border-radius: 16px;
+    padding: 8px;
+}

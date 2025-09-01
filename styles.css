@@ -1,0 +1,43 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+h1 {
+  font-family: helvetica, sans-serif;
+  font-size: 101.1px;
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 79.9px;
+  font-family: helvetica, sans-serif;
+  font-weight: 400;
+}
+
+.container {
+  width: 1440px;
+  min-height: 75px;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div#app {
+  background-color: #e5ff76;
+}
+
+.description {
+  color: #8f8f8f;
+  font-size: 19.2px;
+}
+
+p {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+}
